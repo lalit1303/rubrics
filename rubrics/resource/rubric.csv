@@ -1,0 +1,50 @@
+Level 1,Level 2,Level 3,Max Marks
+1. Business and Data Understanding,,,
+1. Business and Data Understanding,Univariate Plots for 5 variables,,
+1. Business and Data Understanding,Univariate Plots for 5 variables,"Code for plots of any 5 variables (bar chart for categorical variables, histogram for continuous )",50
+1. Business and Data Understanding,Univariate Plots for 5 variables,At least one insight or observation from each chart is articulated  ,50
+1. Business and Data Understanding,Insights in a document,,
+1. Business and Data Understanding,Insights in a document,Charts and observations are presented neatly in a separate document,75
+2. Data Cleaning,,,
+2. Data Cleaning,Missing value Treatment,,
+2. Data Cleaning,Missing value Treatment,Missing values are identified (i.e no missing values) ,10
+2. Data Cleaning,Outliers,,
+2. Data Cleaning,Outliers,"Has identified outliers and, if found, has imputed them (please read the grading instruction)",10
+2. Data Cleaning,Dummy Variables,,
+2. Data Cleaning,Dummy Variables,Dummy variable conversion is performed for the 17 categorical variables and the combined dataframe is created,15
+2. Data Cleaning,Dummy Variables,Comments for this checkpoint,35
+3. Splitting Data,,,
+3. Splitting Data,Splitting,,
+3. Splitting Data,Splitting,seed is set to some arbitrary value,10
+3. Splitting Data,Splitting,Sample.split is used to split the data,25
+3. Splitting Data,Comments,,
+3. Splitting Data,Comments,Comments for this checkpoint,35
+4. Modelling,,,
+4. Modelling,Initial Model ,,
+4. Modelling,Initial Model ,glm function is used to create a model correctly (with all the independent variables),30
+4. Modelling,Initial Model ,Comments for this checkpoint,35
+4. Modelling,Stepwise variable selection,,
+4. Modelling,Stepwise variable selection,step() is used correctly for stepwise variable selection (direction = 'both' is used as an argument),30
+4. Modelling,Multicollinearity Model with VIF,,
+4. Modelling,Multicollinearity Model with VIF,vif() is used correctly,10
+5. KS and C-Statistic,,,
+5. KS and C-Statistic,C-Statistic,,
+5. KS and C-Statistic,C-Statistic,rcorr.cens (or any other function) is used to calculate c-statistic,30
+5. KS and C-Statistic,C-Statistic,c-statistic is comparable to 1.7e05 (not less than e05),20
+5. KS and C-Statistic,KS-Statistic,,
+5. KS and C-Statistic,KS-Statistic,Code for KS statistic is correct (attr or any other function),35
+5. KS and C-Statistic,KS-Statistic,KS statistic is greater than 0.40 (ideal = 0.47),20
+5. KS and C-Statistic,KS-Statistic,Comments for this checkpoint,35
+6. Model Evaluation,,,
+6. Model Evaluation,ROC Curve,,
+6. Model Evaluation,ROC Curve,ROC Curve is plotted on the test data (NOT train data),20
+6. Model Evaluation,Determining threshold value,,
+6. Model Evaluation,Determining threshold value,A suitable threshold value is determined using ROC Curve (between 0.25 and 0.50) (should be mentioned in the comments),25
+6. Model Evaluation,Confusion matrix / table,,
+6. Model Evaluation,Confusion matrix / table,A table() or confusionMatrix() is created using test data,20
+6. Model Evaluation,Specificity and sensitivity,,
+6. Model Evaluation,Specificity and sensitivity,Either of sensitivity or specificity is not 0 or 100% and at least one of them is greater than 60%,20
+6. Model Evaluation,Overall accuracy,,
+6. Model Evaluation,Overall accuracy,Accuracy is greater than 60%,20
+6. Model Evaluation,Comments,,
+6. Model Evaluation,Comments,Comments for this checkpoint,35
