@@ -19,8 +19,8 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'rubrics',
-        'USER': 'root',
-        'PASSWORD': 'lalit1303',
+        'USER': '',
+        'PASSWORD': '',
         'HOST': 'localhost',
         'PORT': '3306'
     }
